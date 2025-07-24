@@ -1,21 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>My Second Assignment</title>
 </head>
-<body class="max-w-6xl mx-auto mt-10">
-    <nav class="flex justify-between items-center">
+<body class="max-w-6xl mx-auto py-5 px-5">
+    <header class="flex flex-col gap-4 justify-between items-center">
         <img src="B12A02-Responsive-Flowers/assets/logo.png" alt="">
         <ul class="list-none flex gap-4">
-            <li><a href=""></a>Home</li>
-            <li class="text-black-50"><a href=""></a>Shop</li>
-            <li><a href=""></a>About Us</li>
+            <li><a href="">Home</a></li>
+            <li class="text-black-50"><a href="">Shop</a></li>
+            <li><a href="">About Us</a></li>
         </ul>
-    </nav>
-    <main class=" max-w-6xl mx-auto mt-6 ">
+    </header>
+    <main class="max-w-6xl mx-auto mt-6">
         <header class="flex items-center px-5">
             <div>
                 <h2 class="font-bold text-5xl">ALWAYS <span class="text-amber-600">FRESH <br>FLOWERS</span> </h2>
@@ -109,22 +110,20 @@
         </div>
 
 
-        <div class="flex justify-between items-center my-8 border-3">
+        <div class="flex justify-between items-center my-8 gap-6 flex-wrap">
 
-            <div class="flex flex-col w-[35%] justify-between items-center border-1">
-                <div class="box1 bg-no-repeat flex flex-col justify-center items-center device-width w-full h-54 gap-2 rounded-xl"
-                    style="background-image: url(B12A02-Responsive-Flowers/assets/deal-bloom.png);">
+            <div class="flex flex-col w-full lg:w-[35%] justify-between items-center gap-4">
+                <div
+                    class="bg-[url('B12A02-Responsive-Flowers/assets/deal-bloom.png')] bg-cover bg-center box1 bg-no-repeat flex flex-col justify-center items-center device-width w-full h-54 gap-2 rounded-xl">
                     <h2 class="text-stone-100 font-bold">60% Off | Bloom Plant</h2>
                     <button class="text-stone-100"><a href="" class="underline">Shop Now</a></button>
                 </div>
-                <div class="box2 bg-no-repeat flex flex-col justify-center items-center device-width w-full h-54 gap-2 rounded-xl"
-                    style="background-image: url(B12A02-Responsive-Flowers/assets/deal-ana.png);">
+                <div class="bg-[url('B12A02-Responsive-Flowers/assets/deal-ana.png')] bg-cover bg-center box2 bg-no-repeat flex flex-col justify-center items-center device-width w-full h-54 gap-2 rounded-xl">
                     <h2 class="text-stone-100 font-bold ">60% Off | Bloom Plant</h2>
                     <button class="text-stone-100"><a href="" class="underline">Shop Now</a></button>
                 </div>
             </div>
-            <div class="box3 w-[65%] bg-no-repeat device-width h-108 items-center border-2"
-                style="background-image: url(B12A02-Responsive-Flowers/assets/deal-zabo.png);">
+            <div class="bg-[url('B12A02-Responsive-Flowers/assets/deal-zabo.png')] bg-cover bg-center box3 bg-no-repeat flex flex-col justify-center items-center device-width w-full gap-2 h-112 rounded-xl border-2">
                 <h2 class="text-stone-100 font-bold ">60% Off | Bloom Plant</h2>
                 <button class="text-stone-100"><a href=""></a>Shop Now</button>
             </div>
@@ -160,4 +159,5 @@
         </div>
     </footer>
 </body>
+
 </html>
